@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Instagram IDX</title>
+  <link rel="stylesheet" href="custom-styles.css">
+  <script src="script.js"></script>
+  <script src="hubspot.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
+<body>
+<div class="navbar">
+  <a href="./"><h1>Instagram IDX.</h1></a>
+  <div class="navItems">
+      <a class="active" href="./demo"><h3 class="navSelect">Demo</h3></a>
+      <a href="./instagramBioGenerator"><h3 class="navSelect">Bio Generator</h3></a>
+      <a href="./contact"><h3 class="navSelect">Contact</h3></a>
+  </div>
+</div>
+<div class="container">
+    <div class="message-container-waitlist">
+        <form id="linkForm">
+          <div class="message outgoing messageForm-text">
+            <input type="text" id="companyName" name="companyName" placeholder="Company Name">
+          </div>
+          <div class="message outgoing messageForm-text">
+            <input type="text" id="email" name="email" placeholder="Email">
+          </div>
+          <div class="message outgoing messageForm-text">
+            <textarea rows="5" cols="50" id="questions" name="questions" style="resize: none;" placeholder="Write your message here."></textarea>
+          </div>
+          <div class="submitButton">
+            <input type="submit" value="Send" />
+          </div>
+        </form>
+        <div id="message" style="display: none;">Look out for an email in the next 3 days for your text form!</div>
+    </div>
+  </div>
+</div>
+</body>
+</body>
+</html>
