@@ -7,6 +7,8 @@ window.onload = function() {
     console.log(formData.get('email'));
     console.log(formData.get('companyName'));
 
+    if (!formData.get('name') === 'spam') {
+
     fetch('https://api.hustlerform.com/api/add-contact', {
       method: 'POST',
       headers: {
@@ -36,5 +38,6 @@ window.onload = function() {
         console.error('Error:', error.message);
         // Handle the error and display an error message to the user
       });
+    }
   });
 };
