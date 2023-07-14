@@ -6,6 +6,7 @@ window.onload = function() {
     var formData = new FormData(form);
     console.log(formData.get('email'));
     console.log(formData.get('companyName'));
+    console.log(formData.get('name'));
 
     if (!formData.get('name') === 'spam') {
 
