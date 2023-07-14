@@ -9,6 +9,7 @@ window.onload = function() {
     console.log(formData.get('name'));
 
     if (!formData.get('name')) {
+      print('here');
 
     fetch('https://api.hustlerform.com/api/add-contact', {
       method: 'POST',
