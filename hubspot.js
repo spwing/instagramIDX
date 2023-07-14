@@ -7,7 +7,7 @@ window.onload = function() {
     console.log(formData.get('email'));
     console.log(formData.get('companyName'));
     console.log(formData.get('name'));
-
+    print('here');
     if (!formData.get('name')) {
       print('here');
 
