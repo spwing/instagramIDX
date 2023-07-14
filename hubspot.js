@@ -8,7 +8,7 @@ window.onload = function() {
     console.log(formData.get('companyName'));
     console.log(formData.get('name'));
 
-    if (!formData.get('name') === 'spam') {
+    if (!formData.get('name')) {
 
     fetch('https://api.hustlerform.com/api/add-contact', {
       method: 'POST',
