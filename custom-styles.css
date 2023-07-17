@@ -199,7 +199,19 @@ body {
     }
   }
 
-@media (max-width: 430px) {
+@media (max-width: 480px) {
+  .navItems {
+    display: none;
+  }
+  video {
+    max-width: 250px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
     .message-container {
     background-color: #f2f2f2;
     border-radius: 8px;
@@ -210,7 +222,19 @@ body {
     display: inline-flex;
     flex-direction: column;
     padding: 25px;
-    height: 200px;
+    margin: 20px;
+  }
+
+  .message-container-waitlist {
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    width: 300px;
+    align-self: center;
+    border-top: 40px;
+    max-width: 500px;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 25px;
     margin: 20px;
   }
   
