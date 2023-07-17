@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+textarea {
+    min-height: 200px;
+}
+.textbox-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .textbox-item input[type="text"] {
+    margin-right: 10px;
+  }
+  
+.plus-sign {
+    cursor: pointer;
+    font-weight: 900;
+    font-size: x-large;
+    margin-right: 10px;
+    background-image: linear-gradient(135deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.plus-sign {
+    transition: transform 0.3s ease-in-out;
+}
+
+.plus-sign:hover {
+    transform: scale(1.5);
+}
+
+.generatedContainer {
+    border: 1px solid #dbdbdb;
+    height: 25px;
+}
+.instagramBioContainer {
+    padding-left: 60px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+#textboxContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+}
+.bodyWithoutHead {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+h3 {
+    color: #000000;
+    
+}
+#logo {
+    font-weight: bold;
+}
+
+.inner-container {
+    width: 400px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+#bioGeneratorTitle {
+    display: inline-block;
+    font-size: 32px;
+    line-height: 1;
+    margin-bottom: 2px;
+    padding: 5px;
+    background-image: linear-gradient(135deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+#forRealEstate {
+    background-image: linear-gradient(135deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+form {
+    background-color: #ffffff;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #262626;
+    
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    resize: vertical;
+
+}
+
+
+input[type="submit"] {
+    background-image: linear-gradient(135deg,  #d62976, #962fbf, #4f5bd5);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  input[type="submit"]:hover {
+    opacity: 0.8;
+  }
+
+h2 {
+    color: #262626;
+    margin-top: 20px;
+}
+
+pre {
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* Navbar styles */
+.navbar {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    padding-bottom: 50px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #000;
+  }
+  
+  .navbar .logo {
+    margin-right: 10px;
+  }
+  
+  /* Style the active navbar link */
+  .navbar a.active {
+    background-color: #fff;
+  }
+  
+  .navItems {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    
+  }
+
+  .navSelect {
+    cursor: pointer;
+    transition: transform 0.3s; /* Add a transition for smooth animation */
+  }
+  
+  .navSelect:hover {
+    transform: scale(1.2); /* Increase the scale of the text */
+  }
