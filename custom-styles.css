@@ -7,6 +7,27 @@ body {
     flex-direction: column;
   }
   
+  .larger-emoji {
+    font-size: 40px; /* Adjust the value as needed */
+    padding-right: 10px;
+    height: 40px;
+
+  }
+
+  .demoImg {
+    background-image: url('./demo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 390px;
+  }
+  .container-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .container {
     display: flex;
     flex-direction: row;
